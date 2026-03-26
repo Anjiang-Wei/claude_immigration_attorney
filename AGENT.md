@@ -10,27 +10,21 @@ Claude Code skills for lawyers. Each skill handles a specific legal workflow, de
 
 ## Knowledge Base
 
-`knowledge/` — Reference playbook that gets smarter with every case. The o1-petition-narrative skill reads these files to produce better arguments.
+`knowledge/` — Reference playbook for O-1A and EB-1A (shared criteria). Gets smarter with every case and RFE. RFE lessons quote real USCIS language.
 
 ```
-knowledge/
-├── o1a/
-│   ├── overview.md              # O-1A standard, Kazarian framework, adjudicator mindset
-│   ├── criteria/01-08           # Each criterion: legal standard, evidence hierarchy,
-│   │                              argument patterns, RFE triggers, facts bank
-│   └── rfe-patterns.md          # Cross-criterion RFE patterns + RFE log
-├── eb1a/                        # (planned — same structure, 10 criteria)
-├── eb2-niw/                     # (planned — 3 Dhanasar prongs)
-└── shared/
-    ├── evidence-hierarchy.md    # Universal evidence weighting (Tier 1-4)
-    ├── argument-patterns.md     # Reusable argument structures
-    └── uscis-policy-alerts.md   # Key policy citations (PA-2022-03, Kazarian, Dhanasar)
+knowledge/shared/
+├── overview-o1a-eb1a.md         # Standard, Kazarian framework, adjudicator mindset
+├── criteria/01-08               # Each criterion: legal standard, evidence hierarchy,
+│                                  argument patterns, RFE lessons with real USCIS quotes
+├── evidence-hierarchy.md        # Universal evidence weighting (Tier 1-4)
+├── argument-patterns.md         # Reusable argument structures
+└── uscis-policy-alerts.md       # Key policy citations
 ```
 
-**How to improve the knowledge base:**
-- After an RFE: add to the relevant criterion file + `rfe-patterns.md`
+**How to improve:**
+- After an RFE: add real USCIS language to the relevant criterion file under "RFE Lessons"
 - After a win: add anonymized argument patterns
-- After web research: add verified org stats to the Facts Bank
 
 ## Workflow
 
