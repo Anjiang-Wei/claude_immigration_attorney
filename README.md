@@ -72,16 +72,36 @@ Each petition package is a single file containing:
 
 1. Install [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
 2. Clone this repo
-3. Point Claude at your source documents:
+3. Install dependencies:
+   ```bash
+   ./scripts/setup.sh
+   ```
+4. Scan your document collection:
+   ```bash
+   ./scripts/scan-collection.sh /path/to/client/documents
+   ```
+5. Index the documents:
    ```
    /document-summary-arrangement
    ```
-4. Draft the petition:
+6. Draft the petition:
    ```
    /o1-petition-narrative     # O-1A temporary visa
    /eb1a-petition-narrative   # EB-1A green card (stricter)
    /niw-petition-narrative    # EB-2 NIW national interest waiver
    ```
+
+## Scripts
+
+Helper scripts for document processing in `scripts/`:
+
+| Script | What It Does |
+|--------|-------------|
+| `setup.sh` | Installs dependencies (poppler for PDF tools) |
+| `scan-collection.sh` | Scans a directory — reports file types, sizes, page counts, batch plan |
+| `pdf-to-text.sh` | Extracts text from PDF (auto-detects scanned vs. text) |
+| `pdf-to-images.sh` | Converts PDF pages to PNG for multimodal reading |
+| `docx-to-text.sh` | Extracts text from .docx (macOS/Linux) |
 
 ## Who This Is For
 
