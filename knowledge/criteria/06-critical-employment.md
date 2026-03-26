@@ -35,11 +35,21 @@ Every support letter must contain:
 - Specific tasks and accomplishments compared to others in similar roles
 
 ## Best Practices
-- Title alone proves nothing — a "Software Engineer" title requires a letter explaining why that specific role was critical
-- Always pair the title with specific metrics, scope of responsibility, and measurable outcomes
-- Founder/CEO claims require corporate documentation: articles of incorporation, business licenses, board resolutions — a resume is NOT sufficient
-- Organization's "distinguished reputation" must be established with external evidence — size and longevity alone are not determinative
-- Support letter authors must demonstrate personal knowledge of the beneficiary's work — generic praise without specifics is discounted
-- Reconcile any title discrepancies between documents (resume vs. HR docs) before filing
-- For startups, establish distinguished reputation through funding/valuation, investor names, press coverage, and industry position
-- Get letters from people with direct, firsthand knowledge — not someone relying on hearsay
+
+### Critical/Leading Role
+- **Leading role:** Evidence must establish the beneficiary is (or was) a leader — a title with appropriate matching duties that shows the person leads within the org or a division/department thereof
+- **Critical role:** Evidence must establish the beneficiary contributed in a way that is of significant importance to the OUTCOME of the org's activities. A supporting role may be "critical" if performance in that role is important — it's not the title but the PERFORMANCE that determines criticality
+- Must submit a letter from the EMPLOYER (current or former) with personal knowledge of the role's significance — letters from third parties who don't work at the org are much weaker
+- Letters must include: name, address, title of writer; how the role is/was leading or critical; specific tasks and accomplishments compared to others in similar pursuits
+- Recent awards and media coverage of the company do NOT by themselves prove the beneficiary's role was leading or critical — must connect the beneficiary's specific work to the org's success
+
+### Distinguished Reputation
+- Must document the org's eminence, distinction, or excellence with EXTERNAL evidence
+- Size and longevity alone are NOT determinative — "a determining factor but is considered together with other information"
+- Awards and media coverage of the org help but must be submitted as evidence of the org's reputation, not just as general background
+- For startups: VC funding from recognized firms, press coverage, industry partnerships, and user traction all contribute
+- Founder/CEO claims require corporate documentation (articles of incorporation, business licenses) — "simply going on record without supporting substantive evidence to support assertions, is not sufficient" (per *Matter of Treasure Craft of California*)
+
+### General
+- Reconcile any title discrepancies between documents before filing
+- Get letters from people with direct firsthand knowledge — not hearsay

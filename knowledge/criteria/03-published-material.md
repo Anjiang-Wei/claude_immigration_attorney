@@ -24,12 +24,14 @@ Key distinction: material written ABOUT the beneficiary by others. Articles BY t
 For each publication, submit: title, date, author, circulation (online and/or print), intended audience.
 
 ## Best Practices
-- Always include monthly unique visitors from SimilarWeb or the outlet's press kit for every publication claimed
-- Submit the full published article, not just a screenshot of the headline or a link
-- Crunchbase profiles, LinkedIn profiles, and directory entries are database entries, NOT published articles
-- Press release distribution services (PR Newswire, BusinessWire) are NOT "major media" — only count if a real outlet picks up and publishes editorially
-- Marketing materials, sponsored content, company blog posts, and promotional materials do not count — must be independently published editorial content
-- The article must be substantially about the beneficiary as an individual, not just about their employer — a company profile mentioning the founder in passing is NOT sufficient
-- Being listed in a "Top 50" roundup is weaker than a standalone article focused on the beneficiary
+- Must be printed "in professional or major trade publications or other major media" — must include title, date, and author of the material, and any necessary translation
+- Submit the ACTUAL ARTICLE, not just a screenshot of a headline — if published online, submit the website version; if in print, submit the print version
+- Articles must include the publication date — undated articles may be rejected: "the assertions of counsel do not constitute evidence" (per *Matter of Obaigbena*, 19 I&N Dec. 533)
+- SimilarWeb data alone is "inconclusive and not probative" for establishing major media status — USCIS notes that web traffic includes user-generated content, ads, and news, and is "not directly comparable to circulation"
+- For each publication, submit: title, date, author, circulation (online AND/OR print), the comparative circulation data of major publications in the field, and the intended audience
+- Web portals, company websites, social media, and search engines not subject to editorial review are open to self-curation — they "carry limited evidentiary weight." See *Badasa v. Mukasey*, 540 F.3d 909 (8th Cir. 2008)
+- Crunchbase profiles, LinkedIn profiles, and directory entries are NOT published articles
+- Press releases and marketing materials created to sell products or promote services are NOT published material about the beneficiary
+- The article must be primarily about the BENEFICIARY relating to their work in the field — not just about the employer or another organization
 - For non-English outlets, provide certified translation plus evidence the outlet is "major" in its market
-- Distinguish clearly between press releases and editorial coverage — only claim editorial pieces
+- Evidence must be specific to the media format: online publication → submit website evidence; print publication → submit print evidence

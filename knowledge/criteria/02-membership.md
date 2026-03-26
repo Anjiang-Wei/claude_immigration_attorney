@@ -50,8 +50,11 @@ If you cannot answer at least 4, the membership argument is weak.
 - Always prove all three sub-elements independently: membership, outstanding achievement requirement, expert judgment
 - A financial threshold alone (e.g., "$500K revenue required") is NOT "outstanding achievement" — show additional qualitative expert review beyond the financial bar
 - Every membership must be explicitly connected to the beneficiary's stated field of endeavor
-- Include governing documents (bylaws, charter) proactively — USCIS may request them
+- Include governing documents (bylaws, charter) proactively — USCIS will request them
 - DAOs and token-gated communities are NOT qualifying associations — membership must involve human expert judgment
 - Listing decision-maker names is not enough — include bios with specific experience, titles, credentials
 - Always include membership proof alongside selectivity evidence — proving the org is selective doesn't prove the beneficiary is a member
-- For new organizations (< 2 years), cite member count, external press, and notable alumni to counter "created to support the petition" concern
+- A letter from the org may be rejected if unsigned — always get signed letters
+- Website screenshots from "unidentified sources" are not accepted — must include the web address on each page
+- Information to establish that reviewers of prospective members' applications are recognized as national/international experts — not just that a "selection committee" exists
+- Submit the constitution or bylaws section that discusses: (1) criteria for membership, (2) qualifications of the review panel, (3) criteria for membership level

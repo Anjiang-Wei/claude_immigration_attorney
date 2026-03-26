@@ -24,11 +24,16 @@ The most common pattern for tech entrepreneur O-1As. Required elements:
 8. **Context:** evidence that low salary + high equity is standard for startup founders
 
 ## Best Practices
-- Equity ownership alone is NOT sufficient — must include comparative data showing total compensation is high relative to peers
-- BLS data alone is insufficient — supplement with Salary.com, Glassdoor, Levels.fyi, or industry compensation surveys
-- Always cite USCIS Policy Alert PA-2022-03 (Jan 21, 2022) for equity-based arguments — it is the key policy document
+- Equity ownership alone is NOT sufficient — must show the salary IS HIGH compared with salaries of other chief officers/professionals in the field. A letter from a third party stating it "naturally distinguishes" the company is NOT comparative evidence
+- "Simply going on record without supporting substantive evidence to support assertions, is not sufficient" — per *Matter of Treasure Craft of California*, 14 I&N Dec. 190 (BIA 1972)
+- Must submit COMPARATIVE evidence — not just what the beneficiary earns, but what OTHERS earn:
+  - W-2s or 1099s for years of high salary in the field
+  - Media reports of notably high salaries earned by others in the field
+  - Lists compiled by credible professional organizations of top earners
+  - Geographic or position-appropriate compensation surveys
+  - BLS or DOL data (but BLS alone does NOT establish "significantly higher" — must be accompanied by corroborative evidence)
+- Always cite USCIS Policy Alert PA-2022-03 (Jan 21, 2022) for equity-based arguments
 - If cash salary is below market, preempt by acknowledging it and pivoting to equity per PA-2022-03
-- SAFE valuation caps are not formal 409A valuations — be prepared to explain why the cap reflects real value
+- SAFE valuation caps are not formal 409A valuations — explain why the cap reflects real value
 - Submit at least two independent sources of comparative compensation data
-- Include W-2s, 1099s, or foreign tax documents showing actual earnings for past employment claims
-- The goal is to show total compensation is significantly above the median, not just above it
+- The goal is "significantly" higher than others — not just above median

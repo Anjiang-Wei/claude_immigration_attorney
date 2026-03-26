@@ -117,12 +117,17 @@ Follow the same argument pattern as o1-petition-narrative (header → narrative 
 ### Additional criteria
 
 #### Criterion 7 (EB-1A only): Display of Work at Exhibitions or Showcases
-For artists, architects, designers, or anyone whose work is exhibited:
-- Evidence of the exhibition/showcase (catalog, program, photos)
-- Venue reputation and selectivity (juried vs. open, acceptance rate)
-- Attendance figures
+This criterion is for ARTISTIC exhibitions or showcases — NOT pitch events or investor demos.
+
+USCIS has rejected startup demo days (e.g., accelerator "Demo Day" pitch events) under this criterion, stating: "the evidence does not establish that such an event is an artistic exhibition or showcase" and "pitching a startup to potential investors" does not qualify.
+
+For legitimate exhibitions (artists, architects, designers, photographers):
+- Evidence the venue is an artistic exhibition or showcase (gallery, museum, design show, film festival)
+- Materials used to promote and publicize the exhibition
+- Evidence the work displayed was primarily created by the beneficiary
+- Sales records listing the beneficiary as the creator
 - Reviews or press coverage of the exhibition
-- Evidence the display was of the beneficiary's work specifically
+- Attendance figures and venue reputation
 
 #### Criterion 10 (EB-1A only): Commercial Successes in Performing Arts
 For musicians, actors, filmmakers, game designers:

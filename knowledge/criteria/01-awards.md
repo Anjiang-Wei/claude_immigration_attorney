@@ -39,12 +39,13 @@ The beneficiary must have received nationally or internationally recognized priz
 - Include user review count and rating
 
 ## Best Practices
+- The award must be to the BENEFICIARY personally — funding to the employer/company does not count. See *Hristov v. Roark*, 09-CV 2731 (E.D.N.Y. 2011): "the beneficiary must be the named award recipient"
+- VC funding is NOT automatically a recognized award — USCIS position: "venture capital investment is principally designed to fund future business activities, not to honor or recognize past achievement." Must affirmatively establish it qualifies with scholarly + precedent evidence
 - Always submit the actual award certificate, not just a list mention
 - Student/academic awards are generally rejected — they exclude established professionals
 - For each award: cite number of applicants, winners, countries, jury composition
 - If award went to a company, include team credits naming the beneficiary individually
-- VC-as-award requires: firm's acceptance rate, scholarly article on VC decision-making, USCIS precedent
-- Being on a "list" (even elite) is not the same as receiving an award — USCIS wants the actual award document
+- Being on a "list" (even elite) is not the same as receiving an award — USCIS wants the actual award document with the beneficiary named
 - If only awards are from student era, consider dropping this criterion entirely
-- Lead with the strongest award; list others briefly as corroboration — don't pad with obscure awards
-- Include geographic reach and news coverage of the award itself to prove "nationally/internationally recognized"
+- Lead with the strongest award; list others briefly as corroboration
+- To prove "nationally/internationally recognized," submit: criteria used to grant the award, reputation of granting organization, geographic scope of candidates, how many awarded each year, previous winners who enjoy national/international acclaim
