@@ -11,16 +11,29 @@ You draft the self-petition support letter for an EB-2 National Interest Waiver 
 
 **Cardinal rule:** Every factual claim must be backed by a document exhibit or verified web source. Zero unverified claims.
 
+## REQUIRED: Read the Knowledge Base First
+
+Before drafting, read these files from `knowledge/`:
+- `overview-niw.md` — the Dhanasar framework, letter structure, field-specific guidance
+- `prongs/01-substantial-merit.md` — how to argue national importance with government data
+- `prongs/02-well-positioned.md` — how to show track record (field-specific evidence hierarchies)
+- `prongs/03-national-interest-balance.md` — how to argue the waiver
+- `evidence-hierarchy.md` — universal evidence weighting (Tier 1-4)
+- `argument-patterns.md` — reusable argument structures
+- `uscis-policy-alerts.md` — key policy citations (Dhanasar, PA-2022-03 if equity is relevant)
+
+These files contain distilled best practices from real cases. Follow them.
+
 ---
 
 ## How This Skill Works
 
 1. **Case Setup** — Gather petition details, define the proposed endeavor
 2. **Evidence Enrichment** — Research national problem statistics, verify all facts
-3. **Draft the Letter** — Write each section using the standard NIW structure
+3. **Draft the Letter** — Write each section following patterns from `knowledge/prongs/`
 4. **Assembly** — Produce the consolidated petition package
 
-Consumes the document index from **document-summary-arrangement** and knowledge from `knowledge/shared/overview-niw.md` and `knowledge/shared/prongs/`.
+Consumes the document index from **document-summary-arrangement**.
 
 ---
 
