@@ -18,7 +18,8 @@ The skills follow the argument structures used by established immigration law fi
 | Skill | What It Does |
 |-------|-------------|
 | [`document-summary-arrangement`](document-summary-arrangement/) | Ingests source documents (PDFs, images, scans), triages by importance, summarizes key documents, and produces a structured index arranged by evidentiary criterion |
-| [`o1-petition-narrative`](o1-petition-narrative/) | Drafts O-1A/EB-1A petition support letters — criterion-by-criterion arguments with exhibit references and evidence enrichment |
+| [`o1-petition-narrative`](o1-petition-narrative/) | Drafts O-1A/O-1B petition support letters — criterion-by-criterion arguments with exhibit references and evidence enrichment |
+| [`eb1a-petition-narrative`](eb1a-petition-narrative/) | Drafts EB-1A green card petitions — same criteria as O-1A but stricter scrutiny, adds sustained acclaim totality argument, intent to continue work, and substantial U.S. benefit |
 | [`niw-petition-narrative`](niw-petition-narrative/) | Drafts EB-2 NIW self-petition support letters using the Dhanasar three-prong framework |
 
 ## Knowledge Base
@@ -56,8 +57,9 @@ document-summary-arrangement → document index (arranged by criterion)
        ↓
 knowledge/ (read best practices)
        ↓
-o1-petition-narrative  → O-1A/EB-1A petition package
-niw-petition-narrative → EB-2 NIW petition package
+o1-petition-narrative   → O-1A petition package
+eb1a-petition-narrative → EB-1A petition package (stricter)
+niw-petition-narrative  → EB-2 NIW petition package
 ```
 
 Each petition package is a single file containing:
@@ -76,11 +78,9 @@ Each petition package is a single file containing:
    ```
 4. Draft the petition:
    ```
-   /o1-petition-narrative
-   ```
-   or
-   ```
-   /niw-petition-narrative
+   /o1-petition-narrative     # O-1A temporary visa
+   /eb1a-petition-narrative   # EB-1A green card (stricter)
+   /niw-petition-narrative    # EB-2 NIW national interest waiver
    ```
 
 ## Who This Is For

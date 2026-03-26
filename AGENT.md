@@ -38,7 +38,8 @@ knowledge/
 | Skill | What It Does | Reads Knowledge |
 |-------|-------------|-----------------|
 | `document-summary-arrangement` | Indexes source documents, triages by importance, classifies by type | — |
-| `o1-petition-narrative` | Drafts O-1A/EB-1A support letters with evidence enrichment | `criteria/`, `overview-o1a-eb1a.md` |
+| `o1-petition-narrative` | Drafts O-1A/O-1B support letters with evidence enrichment | `criteria/`, `overview-o1a-eb1a.md` |
+| `eb1a-petition-narrative` | Drafts EB-1A green card petitions — stricter than O-1A, adds sustained acclaim + totality argument | `criteria/`, `overview-o1a-eb1a.md` |
 | `niw-petition-narrative` | Drafts EB-2 NIW self-petition letters (Dhanasar framework) | `prongs/`, `overview-niw.md` |
 
 ## Workflow
@@ -46,8 +47,9 @@ knowledge/
 ```
 Source documents → document-summary-arrangement → document index
                                                        ↓
-              knowledge/ (read first) → o1-petition-narrative  → petition package
-                                      → niw-petition-narrative → petition package
+              knowledge/ (read first) → o1-petition-narrative   → O-1A petition package
+                                      → eb1a-petition-narrative → EB-1A petition package
+                                      → niw-petition-narrative  → NIW petition package
 ```
 
 ## Planned Skills
