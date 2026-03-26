@@ -15,19 +15,19 @@ Use the scripts in `scripts/` for document processing:
 
 ```bash
 # First time: install dependencies
-./scripts/setup.sh
+./document-summary-arrangement/scripts/setup.sh
 
 # Scan a document collection — get file types, sizes, page counts, batch plan
-./scripts/scan-collection.sh /path/to/documents
+./document-summary-arrangement/scripts/scan-collection.sh /path/to/documents
 
 # Extract text from a PDF (auto-detects scanned vs. text PDFs)
-./scripts/pdf-to-text.sh document.pdf
+./document-summary-arrangement/scripts/pdf-to-text.sh document.pdf
 
 # Convert scanned PDF to images for multimodal reading
-./scripts/pdf-to-images.sh scanned.pdf /tmp/output 200
+./document-summary-arrangement/scripts/pdf-to-images.sh scanned.pdf /tmp/output 200
 
 # Extract text from .docx
-./scripts/docx-to-text.sh document.docx
+./document-summary-arrangement/scripts/docx-to-text.sh document.docx
 ```
 
 Run `scan-collection.sh` first during the Triage phase — it gives you the file inventory and batch plan.

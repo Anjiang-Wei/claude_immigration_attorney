@@ -74,11 +74,11 @@ Each petition package is a single file containing:
 2. Clone this repo
 3. Install dependencies:
    ```bash
-   ./scripts/setup.sh
+   ./document-summary-arrangement/scripts/setup.sh
    ```
 4. Scan your document collection:
    ```bash
-   ./scripts/scan-collection.sh /path/to/client/documents
+   ./document-summary-arrangement/scripts/scan-collection.sh /path/to/client/documents
    ```
 5. Index the documents:
    ```
@@ -93,7 +93,7 @@ Each petition package is a single file containing:
 
 ## Scripts
 
-Helper scripts for document processing in `scripts/`:
+Helper scripts for document processing in `document-summary-arrangement/scripts/`:
 
 | Script | What It Does |
 |--------|-------------|
