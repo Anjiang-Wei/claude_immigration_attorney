@@ -6,24 +6,29 @@ Claude Code skills for lawyers. Each skill handles a specific legal workflow, de
 
 1. **`document-summary-arrangement`** — Reads source documents (PDF, scans, images), triages by importance, summarizes key documents, classifies by type, and produces a structured document index. The foundational skill — every other legal workflow starts here. Supports immigration-native arrangement by evidentiary criterion (O-1, EB-1, EB-2 NIW).
 
-2. **`o1-petition-narrative`** — Drafts the O-1A/O-1B support letter (cover letter / petition brief) from a document index. Criterion-by-criterion argument with exhibit references, following the standard immigration law firm format. Consumes output from document-summary-arrangement.
+2. **`o1-petition-narrative`** — Drafts O-1A/O-1B support letters from a document index. Criterion-by-criterion with exhibit references and evidence enrichment.
+
+3. **`niw-petition-narrative`** — Drafts EB-2 NIW self-petition support letters using the Dhanasar three-prong framework. First-person, forward-looking, with national importance argument backed by government statistics.
 
 ## Knowledge Base
 
-`knowledge/` — Reference playbook for O-1A and EB-1A (shared criteria). Gets smarter with every case and RFE. RFE lessons quote real USCIS language.
+`knowledge/` — Reference playbook for O-1A, EB-1A, and EB-2 NIW. Gets smarter with every case.
 
 ```
 knowledge/shared/
-├── overview-o1a-eb1a.md         # Standard, Kazarian framework, adjudicator mindset
-├── criteria/01-08               # Each criterion: legal standard, evidence hierarchy,
-│                                  argument patterns, RFE lessons with real USCIS quotes
+├── overview-o1a-eb1a.md         # Extraordinary ability standard + Kazarian framework
+├── overview-niw.md              # NIW standard + Dhanasar framework + letter structure
+├── criteria/01-08               # Shared O-1A/EB-1A criteria: legal standard, evidence
+│                                  hierarchy, argument patterns, best practices
+├── prongs/01-03                 # NIW Dhanasar prongs: substantial merit, well positioned,
+│                                  national interest balance
 ├── evidence-hierarchy.md        # Universal evidence weighting (Tier 1-4)
 ├── argument-patterns.md         # Reusable argument structures
 └── uscis-policy-alerts.md       # Key policy citations
 ```
 
 **How to improve:**
-- After an RFE: add real USCIS language to the relevant criterion file under "RFE Lessons"
+- After a case: add best practices to the relevant criterion/prong file
 - After a win: add anonymized argument patterns
 
 ## Workflow

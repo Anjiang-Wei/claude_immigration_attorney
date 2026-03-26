@@ -15,30 +15,27 @@ The beneficiary must have received nationally or internationally recognized priz
 
 ## Winning Argument Patterns
 
-### VC Funding as Award
-Required elements:
-- Frame each funding round as competitive selection: cite firm's acceptance rate or deal flow vs. investments made
-- Cite scholarly research on VC decision-making (e.g., Gompers et al., 2020, Journal of Financial Economics)
-- Cite USCIS precedent or policy guidance accepting VC as awards
-- Per VC firm: AUM, portfolio size, notable companies, founding year — all sourced
-- Emphasize VC evaluated the entrepreneur's ability, not just the company
+### Research / Academic Awards
+- Competitive grants (NIH R01, NSF CAREER, ERC) can qualify as awards when competitively selected
+- Best paper awards at major conferences (with acceptance rate and submission count)
+- Named fellowships (Fulbright, Sloan, Guggenheim) — cite selectivity and past recipients
+- For each: cite number of applicants, winners, selection committee credentials
 
-Argument structure:
-1. Beneficiary received $X from Firm — cite SAFE/term sheet exhibit
-2. Firm is internationally recognized — cite AUM, portfolio, countries
-3. Firm's selection constitutes an award for excellence — cite acceptance rate, scholarly article
-4. USCIS has accepted VC funding as awards — cite policy alert or prior approval
+### Industry / Professional Awards
+- Design awards (MUSE, Red Dot, iF): cite submissions, winners, countries, jury
+- Business awards (Stevie, Forbes lists): cite entries, judges, geographic scope
+- Professional society awards: cite the society's membership and award criteria
+- If award went to a company/team, tie beneficiary individually to the credited work
 
-### Design/Industry Awards
-- Cite number of submissions vs. winners
-- Cite jury composition (named experts)
-- Cite countries represented in submissions
-- If award is to a company, tie beneficiary to the credited team
+### VC Funding as Award (entrepreneurs)
+- Frame each funding round as competitive selection: cite firm's acceptance rate
+- Cite scholarly research on VC decision-making (e.g., Gompers et al., 2020)
+- Cite USCIS precedent accepting VC as awards
+- Per firm: AUM, portfolio size, founding year — all sourced
 
-### Product Hunt / Online Platform Recognition
+### Online Platform Recognition
 - Weaker standalone, useful as corroboration
-- Frame as peer-reviewed by industry practitioners
-- Cite total products launched that day/week vs. ranking achieved
+- Cite total entries vs. ranking achieved
 - Include user review count and rating
 
 ## Best Practices
