@@ -1,6 +1,10 @@
-# Claude Immigration Attorney
+<p align="center">
+  <img src="assets/logo.png" alt="Claude Immigration Attorney" width="200">
+</p>
 
-Claude Code skills for immigration attorneys and self-petitioning candidates. Draft O-1A, EB-1A, and EB-2 NIW petitions with AI — every claim backed by evidence.
+<h1 align="center">Claude Immigration Attorney</h1>
+
+<p align="center">Claude Code skills for immigration attorneys and self-petitioning candidates.<br>Draft O-1A, EB-1A, and EB-2 NIW petitions with AI — every claim backed by evidence.</p>
 
 ## What This Is
 
