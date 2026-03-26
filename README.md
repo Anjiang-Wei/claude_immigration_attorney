@@ -1,17 +1,22 @@
-# Claude for Legal
+# Claude Immigration Attorney
 
-Claude Code skills for immigration attorneys. Draft O-1A, EB-1A, and EB-2 NIW petitions with AI — every claim backed by evidence.
+Claude Code skills for immigration attorneys and self-petitioning candidates. Draft O-1A, EB-1A, and EB-2 NIW petitions with AI — every claim backed by evidence.
 
 ## What This Is
 
-A set of [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skills that handle the most time-consuming parts of immigration petition work:
+A set of [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skills that handle the most time-consuming parts of immigration petition work. Built for two audiences:
 
-1. **Read and organize 100+ source documents** into a structured index
-2. **Research every entity** (organizations, awards, publications) for verified facts
-3. **Draft the petition letter** criterion-by-criterion with exhibit references
-4. **Flag evidence gaps** so the attorney knows exactly what's missing
+**For immigration attorneys:**
+- Organize 100+ client documents into a structured evidence index
+- Draft petition letters with proper legal structure, exhibit references, and evidence enrichment
+- Audit drafts for factual errors, unsupported claims, and legal issues before signing
+- Draft expert/recommendation letters with strategic criteria assignment
 
-The skills follow the argument structures used by established immigration law firms, with one improvement: every factual claim must trace back to a document exhibit or a verified web source. No vague adjectives, no unsourced numbers.
+**For self-petitioning candidates (EB-1A, NIW):**
+- Understand what evidence you need and how strong your case is
+- Research government sources that support your national importance argument
+- Generate a first draft of your self-petition letter to review with your attorney
+- Identify evidence gaps before you file
 
 ## Skills
 
@@ -22,8 +27,8 @@ The skills follow the argument structures used by established immigration law fi
 | [`eb1a-petition-narrative`](eb1a-petition-narrative/) | Drafts EB-1A green card petitions — same criteria as O-1A but stricter scrutiny, adds sustained acclaim totality argument, intent to continue work, and substantial U.S. benefit |
 | [`niw-national-importance-research`](niw-national-importance-research/) | Researches authoritative gov sources, national plans, and federal funding — produces a quotable research document matched to the petitioner's background |
 | [`niw-petition-narrative`](niw-petition-narrative/) | Drafts EB-2 NIW self-petition support letters using the Dhanasar three-prong framework |
-| [`petition-audit`](petition-audit/) | Audits any petition letter — verifies every factual claim against source documents, flags legal errors, checks internal consistency, produces severity-rated report |
 | [`expert-letter-drafter`](expert-letter-drafter/) | Drafts expert/reference/recommendation letters — assigns criteria to experts by credential, ensures no two letters overlap, produces ready-to-customize drafts |
+| [`petition-audit`](petition-audit/) | Audits any petition letter — verifies every factual claim against source documents, flags legal errors, checks internal consistency, produces severity-rated report |
 
 ## Knowledge Base
 
@@ -60,12 +65,15 @@ document-summary-arrangement → document index (arranged by criterion)
        ↓
 knowledge/ (read best practices)
        ↓
-o1-petition-narrative   → O-1A petition package
-eb1a-petition-narrative          → EB-1A petition package (stricter)  ─┐
-niw-national-importance-research → gov sources research document       │
-  → niw-petition-narrative       → NIW petition package              ──┤
-                                                                       ↓
-                                                          petition-audit → audit report
+o1-petition-narrative              → O-1A petition package   ─┐
+eb1a-petition-narrative            → EB-1A petition package  ─┤
+niw-national-importance-research   → research document        │
+  → niw-petition-narrative         → NIW petition package   ──┤
+expert-letter-drafter              → expert letter drafts     │
+                                                              ↓
+                                             petition-audit → audit report
+                                                              ↓
+                                                     Attorney reviews & signs
 ```
 
 Each petition package is a single file containing:
@@ -76,26 +84,54 @@ Each petition package is a single file containing:
 
 ## Quick Start
 
+### For attorneys
 1. Install [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
 2. Clone this repo
 3. Install dependencies:
    ```bash
    ./document-summary-arrangement/scripts/setup.sh
    ```
-4. Scan your document collection:
-   ```bash
-   ./document-summary-arrangement/scripts/scan-collection.sh /path/to/client/documents
-   ```
-5. Index the documents:
+4. Point Claude at your client's documents:
    ```
    /document-summary-arrangement
    ```
-6. Draft the petition:
+5. Draft the petition:
    ```
    /o1-petition-narrative     # O-1A temporary visa
-   /eb1a-petition-narrative   # EB-1A green card (stricter)
-   /niw-petition-narrative    # EB-2 NIW national interest waiver
+   /eb1a-petition-narrative   # EB-1A green card
+   /niw-petition-narrative    # EB-2 NIW
    ```
+6. Draft expert letters:
+   ```
+   /expert-letter-drafter
+   ```
+7. Audit before signing:
+   ```
+   /petition-audit
+   ```
+
+### For self-petitioning candidates
+1. Install [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
+2. Clone this repo
+3. Gather your documents (awards, memberships, publications, employment records, funding docs)
+4. Index your documents:
+   ```
+   /document-summary-arrangement
+   ```
+5. For NIW — research your national importance argument:
+   ```
+   /niw-national-importance-research
+   ```
+6. Draft your self-petition:
+   ```
+   /eb1a-petition-narrative   # EB-1A self-petition
+   /niw-petition-narrative    # NIW self-petition
+   ```
+7. Audit the draft:
+   ```
+   /petition-audit
+   ```
+8. **Take the draft to an immigration attorney for review before filing.**
 
 ## Scripts
 
@@ -111,15 +147,15 @@ Helper scripts for document processing in `document-summary-arrangement/scripts/
 
 ## Who This Is For
 
-- Immigration attorneys drafting extraordinary ability and national interest waiver petitions
-- Legal teams that want to reduce the time spent on document organization and initial drafting
-- Attorneys who want a structured, evidence-backed first draft they can review and refine
+- **Immigration attorneys** drafting O-1A, EB-1A, and NIW petitions who want structured, evidence-backed first drafts
+- **Self-petitioning candidates** (EB-1A, NIW) who want to understand their case strength, organize evidence, and prepare a draft before engaging an attorney
+- **Legal teams** that want to reduce time spent on document organization, research, and initial drafting
 
 ## What This Is NOT
 
-- Not legal advice. Every output is a draft for attorney review.
-- Not a replacement for legal judgment. The attorney decides what to file.
-- Not a document filing system. It drafts — you review, edit, and file.
+- **Not legal advice.** Every output is a draft. An immigration attorney must review, edit, and sign before filing.
+- **Not a replacement for an attorney.** Self-petitioning candidates should use these tools to prepare — then take the output to a licensed immigration attorney.
+- **Not guaranteed to result in approval.** Petition outcomes depend on the facts, the evidence, and USCIS adjudication.
 
 ## Contributing
 

@@ -1,6 +1,6 @@
-# Claude for Legal
+# Claude Immigration Attorney
 
-Skills and knowledge base for immigration petition work. Covers O-1A, EB-1A, and EB-2 NIW.
+Skills and knowledge base for immigration petition work. For attorneys and self-petitioning candidates. Covers O-1A, EB-1A, and EB-2 NIW.
 
 ## Knowledge Base — READ THIS FIRST
 
