@@ -22,6 +22,7 @@ The skills follow the argument structures used by established immigration law fi
 | [`eb1a-petition-narrative`](eb1a-petition-narrative/) | Drafts EB-1A green card petitions — same criteria as O-1A but stricter scrutiny, adds sustained acclaim totality argument, intent to continue work, and substantial U.S. benefit |
 | [`niw-national-importance-research`](niw-national-importance-research/) | Researches authoritative gov sources, national plans, and federal funding — produces a quotable research document matched to the petitioner's background |
 | [`niw-petition-narrative`](niw-petition-narrative/) | Drafts EB-2 NIW self-petition support letters using the Dhanasar three-prong framework |
+| [`petition-audit`](petition-audit/) | Audits any petition letter — verifies every factual claim against source documents, flags legal errors, checks internal consistency, produces severity-rated report |
 
 ## Knowledge Base
 
@@ -59,9 +60,11 @@ document-summary-arrangement → document index (arranged by criterion)
 knowledge/ (read best practices)
        ↓
 o1-petition-narrative   → O-1A petition package
-eb1a-petition-narrative          → EB-1A petition package (stricter)
-niw-national-importance-research → gov sources research document
-  → niw-petition-narrative       → NIW petition package
+eb1a-petition-narrative          → EB-1A petition package (stricter)  ─┐
+niw-national-importance-research → gov sources research document       │
+  → niw-petition-narrative       → NIW petition package              ──┤
+                                                                       ↓
+                                                          petition-audit → audit report
 ```
 
 Each petition package is a single file containing:
