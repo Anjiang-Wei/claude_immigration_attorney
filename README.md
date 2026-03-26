@@ -80,6 +80,27 @@ expert-letter-drafter              → expert letter drafts     │
                                                      Attorney reviews & signs
 ```
 
+## Sample Output
+
+Here's what the skills actually produce — from a real test run on the Judging criterion:
+
+### Evidence Research
+Every entity is researched with facts traced to source documents and verified web URLs:
+
+<img src="assets/sample-research.png" alt="Sample source registry showing verified facts from client documents and web research" width="700">
+
+### Web Source Verification
+Web sources are compiled with exact quotes, retrieval dates, and attorney action checkboxes:
+
+<img src="assets/sample-sources.png" alt="Sample web sources with URLs, quotes, and attorney verification checklist" width="700">
+
+### Petition Draft
+The final draft uses ONLY sourced facts — every number has a citation:
+
+<img src="assets/sample-draft.png" alt="Sample petition paragraph with sourced statistics and exhibit references" width="700">
+
+---
+
 Each petition package is a single file containing:
 - The full support letter draft
 - Source registry (every fact traced to a document or URL)
