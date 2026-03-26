@@ -43,6 +43,7 @@ knowledge/
 | `niw-national-importance-research` | Researches gov sources, national plans, federal funding for the NIW national importance argument | `prongs/01-substantial-merit.md`, `overview-niw.md` |
 | `niw-petition-narrative` | Drafts EB-2 NIW self-petition letters (Dhanasar framework) | `prongs/`, `overview-niw.md` |
 | `petition-audit` | Audits any petition letter — verifies every claim, flags errors, produces severity-rated report | All relevant knowledge files |
+| `expert-letter-drafter` | Drafts expert/reference/recommendation letters — assigns criteria to experts, ensures no overlap | `criteria/`, `prongs/`, `evidence-hierarchy.md` |
 
 ## Workflow
 

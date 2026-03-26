@@ -23,6 +23,7 @@ The skills follow the argument structures used by established immigration law fi
 | [`niw-national-importance-research`](niw-national-importance-research/) | Researches authoritative gov sources, national plans, and federal funding — produces a quotable research document matched to the petitioner's background |
 | [`niw-petition-narrative`](niw-petition-narrative/) | Drafts EB-2 NIW self-petition support letters using the Dhanasar three-prong framework |
 | [`petition-audit`](petition-audit/) | Audits any petition letter — verifies every factual claim against source documents, flags legal errors, checks internal consistency, produces severity-rated report |
+| [`expert-letter-drafter`](expert-letter-drafter/) | Drafts expert/reference/recommendation letters — assigns criteria to experts by credential, ensures no two letters overlap, produces ready-to-customize drafts |
 
 ## Knowledge Base
 
