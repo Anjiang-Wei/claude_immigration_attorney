@@ -33,6 +33,7 @@ A set of [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skills th
 | [`niw-petition-narrative`](niw-petition-narrative/) | Drafts EB-2 NIW self-petition support letters using the Dhanasar three-prong framework |
 | [`expert-letter-drafter`](expert-letter-drafter/) | Drafts expert/reference/recommendation letters — assigns criteria to experts by credential, ensures no two letters overlap, produces ready-to-customize drafts |
 | [`petition-audit`](petition-audit/) | Audits any petition letter — verifies every factual claim against source documents, flags legal errors, checks internal consistency, produces severity-rated report |
+| [`rfe-response-drafter`](rfe-response-drafter/) | Analyzes a USCIS RFE, diagnoses what went wrong in the original petition, maps each deficiency to a fix, and drafts the point-by-point response with new evidence strategy |
 
 ## Knowledge Base
 
