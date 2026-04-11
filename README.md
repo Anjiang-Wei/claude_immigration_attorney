@@ -190,6 +190,10 @@ The knowledge base improves with every case. After a case outcome:
 - Never commit client names, company names, or identifying details
 - Keep entries concise and actionable
 
+## Contact
+
+For professional immigration guidance (EB-1, NIW, O-1), you can contact [Neo AI](https://www.neoglob.info/).
+
 ## License
 
 MIT
