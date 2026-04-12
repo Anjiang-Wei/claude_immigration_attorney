@@ -70,6 +70,8 @@ Same 5 phases as o1-petition-narrative:
 4. **Criterion Arguments** — Draft each criterion with sourced facts
 5. **Assembly** — Produce consolidated petition package
 
+Requires the **document index** from **document-summary-arrangement**. **case-strength-assessor** (optional) may be run first for a pre-draft strength report; use it to prioritize criteria and flag gaps, not as a substitute for attorney judgment.
+
 ---
 
 ## Phase 1: Case Setup

@@ -34,6 +34,8 @@ Audits a generated petition letter for factual accuracy, unsupported claims, leg
 
 ## Workflow
 
+Earlier in the pipeline (optional): `document-summary-arrangement` → document index → **case-strength-assessor** → strength assessment.
+
 ```
 o1-petition-narrative   →  petition package  →  petition-audit  →  audit report
 eb1a-petition-narrative →  petition package  →  petition-audit  →  audit report

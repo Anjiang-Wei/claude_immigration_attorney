@@ -49,6 +49,8 @@ Your job is to:
 | Relationship type | Employer, colleague, independent expert, industry leader, academic |
 | What they can speak to | Which aspects of the beneficiary's work they have firsthand knowledge of |
 
+**Optional:** If **case-strength-assessor** was already run on the document index, use its WEAK/MODERATE ratings to prioritize which criteria need the strongest independent expert coverage and which gaps letters alone cannot fix.
+
 ### Expert types (from strongest to weakest for USCIS)
 
 | Type | Strength | Example |

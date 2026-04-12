@@ -40,12 +40,16 @@ Single file: `national_importance_research.md` containing:
 ## Workflow
 
 ```
-/niw-national-importance-research  →  research document
-                                            ↓
-                              /niw-petition-narrative  →  petition package
+document-summary-arrangement  →  document index
+                                       ↓
+                    /niw-national-importance-research  →  research document
+                                       ↓
+                         /niw-petition-narrative  →  petition package
 ```
 
-Run this BEFORE drafting the NIW petition. The petition skill consumes this research.
+Run **niw-national-importance-research** before drafting the NIW petition. The petition skill consumes this research.
+
+**Optional (skip by default):** `/case-strength-assessor` on the document index — only if you want a separate pre-draft strength report; **not required** for this workflow.
 
 ## Usage
 

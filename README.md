@@ -12,6 +12,7 @@ A set of [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skills th
 
 **For immigration attorneys:**
 - Organize 100+ client documents into a structured evidence index
+- Optionally run a pre-draft check on which criteria or NIW prongs look supportable from the index (skip if you prefer to go straight to drafting)
 - Draft petition letters with proper legal structure, exhibit references, and evidence enrichment
 - Audit drafts for factual errors, unsupported claims, and legal issues before signing
 - Draft expert/recommendation letters with strategic criteria assignment
@@ -27,6 +28,7 @@ A set of [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skills th
 | Skill | What It Does |
 |-------|-------------|
 | [`document-summary-arrangement`](document-summary-arrangement/) | Ingests source documents (PDFs, images, scans), triages by importance, summarizes key documents, and produces a structured index arranged by evidentiary criterion |
+| [`case-strength-assessor`](case-strength-assessor/) | **Optional.** Reads the document index and outputs a frank pre-draft assessment of which O-1A/EB-1A criteria or NIW prongs are strong, moderate, weak, or unsupported — use before drafting only if you want this extra pass |
 | [`o1-petition-narrative`](o1-petition-narrative/) | Drafts O-1A/O-1B petition support letters — criterion-by-criterion arguments with exhibit references and evidence enrichment |
 | [`eb1a-petition-narrative`](eb1a-petition-narrative/) | Drafts EB-1A green card petitions — same criteria as O-1A but stricter scrutiny, adds sustained acclaim totality argument, intent to continue work, and substantial U.S. benefit |
 | [`niw-national-importance-research`](niw-national-importance-research/) | Researches authoritative gov sources, national plans, and federal funding — produces a quotable research document matched to the petitioner's background |
@@ -81,6 +83,8 @@ expert-letter-drafter              → expert letter drafts     │
                                                      Attorney reviews & signs
 ```
 
+*Optional, any time after the index exists and before narrative drafting:* [`case-strength-assessor`](case-strength-assessor/) — pre-draft criterion/prong strength report. **Not part of the default pipeline;** skip it if you already know the case shape.
+
 ## Sample Output
 
 Here's what the skills actually produce — from a real test run on the Judging criterion:
@@ -121,17 +125,21 @@ Each petition package is a single file containing:
    ```
    /document-summary-arrangement
    ```
-5. Draft the petition:
+5. Optionally assess case strength from the index before drafting:
+   ```
+   /case-strength-assessor
+   ```
+6. Draft the petition:
    ```
    /o1-petition-narrative     # O-1A temporary visa
    /eb1a-petition-narrative   # EB-1A green card
    /niw-petition-narrative    # EB-2 NIW
    ```
-6. Draft expert letters:
+7. Draft expert letters:
    ```
    /expert-letter-drafter
    ```
-7. Audit before signing:
+8. Audit before signing:
    ```
    /petition-audit
    ```
@@ -144,20 +152,24 @@ Each petition package is a single file containing:
    ```
    /document-summary-arrangement
    ```
-5. For NIW — research your national importance argument:
+5. Optionally see which criteria or prongs look strong or weak before drafting:
+   ```
+   /case-strength-assessor
+   ```
+6. For NIW — research your national importance argument:
    ```
    /niw-national-importance-research
    ```
-6. Draft your self-petition:
+7. Draft your self-petition:
    ```
    /eb1a-petition-narrative   # EB-1A self-petition
    /niw-petition-narrative    # NIW self-petition
    ```
-7. Audit the draft:
+8. Audit the draft:
    ```
    /petition-audit
    ```
-8. **Take the draft to an immigration attorney for review before filing.**
+9. **Take the draft to an immigration attorney for review before filing.**
 
 ## Scripts
 

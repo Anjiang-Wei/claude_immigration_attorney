@@ -51,6 +51,8 @@ Every factual assertion → must have a source:
 
 Run **document-summary-arrangement** first to build the document index.
 
+**Optional:** Run **case-strength-assessor** on the index for a pre-draft frank assessment of which criteria look strong, moderate, or weak before you invest in narrative drafting (`/case-strength-assessor`).
+
 ## Usage
 
 ```
