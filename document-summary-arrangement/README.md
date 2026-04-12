@@ -49,6 +49,14 @@ workspace/<matter-name>/
     └── document_index.md     # Master index with inline summaries
 ```
 
+## Next steps (immigration)
+
+After `document_index.md` exists, the **default** path is to go straight to the narrative skills — no other step is required:
+
+- `/o1-petition-narrative` or `/eb1a-petition-narrative`, or for NIW `/niw-national-importance-research` then `/niw-petition-narrative`
+
+**Optional only:** If you want a separate pre-draft pass on how strong each criterion or NIW prong looks *from the index alone*, run [`case-strength-assessor`](../case-strength-assessor/) (`/case-strength-assessor`). Skip it entirely if you do not need that report.
+
 ## Key improvements from v1
 
 - **Triage phase** — scans before reading; identifies key docs vs. screenshots; plans batches

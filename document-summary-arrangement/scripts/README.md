@@ -1,6 +1,6 @@
 # Scripts
 
-Utility scripts for document processing. Used by `document-summary-arrangement` and the petition skills.
+Utility scripts for document processing. Used by `document-summary-arrangement` and the petition skills. The document index may **optionally** be used with **`case-strength-assessor`** for a pre-draft criterion/prong assessment (no scripts required for that skill); many workflows skip it and go straight to narrative drafting.
 
 ## Setup
 

@@ -33,7 +33,7 @@ These files contain distilled best practices from real cases. Follow them.
 3. **Draft the Letter** — Write each section following patterns from `knowledge/prongs/`
 4. **Assembly** — Produce the consolidated petition package
 
-Consumes the document index from **document-summary-arrangement**.
+Consumes the document index from **document-summary-arrangement**. If **case-strength-assessor** was run first, use its prong ratings and evidence-gap list to focus the national-importance and well-positioned sections — final strategy remains with the attorney.
 
 ---
 

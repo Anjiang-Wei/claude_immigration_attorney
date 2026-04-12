@@ -29,6 +29,7 @@ knowledge/
 ```
 
 **When to read what:**
+- Optional pre-draft strength check (`case-strength-assessor`, if used) → read `evidence-hierarchy.md` + relevant overview + each `criteria/` or `prongs/` file you rate + `uscis-policy-alerts.md` as needed
 - Drafting O-1A/EB-1A → read `overview-o1a-eb1a.md` + all relevant `criteria/` files + `argument-patterns.md`
 - Drafting NIW → read `overview-niw.md` + all `prongs/` files + `argument-patterns.md`
 - Any petition → read `evidence-hierarchy.md` + `uscis-policy-alerts.md`
@@ -38,6 +39,7 @@ knowledge/
 | Skill | What It Does | Reads Knowledge |
 |-------|-------------|-----------------|
 | `document-summary-arrangement` | Indexes source documents, triages by importance, classifies by type | — |
+| `case-strength-assessor` | **Optional.** Pre-draft assessment from the document index — rates criteria/NIW prongs STRONG–INSUFFICIENT when the team wants that pass | `criteria/` or `prongs/`, `evidence-hierarchy.md`, overviews |
 | `o1-petition-narrative` | Drafts O-1A/O-1B support letters with evidence enrichment | `criteria/`, `overview-o1a-eb1a.md` |
 | `eb1a-petition-narrative` | Drafts EB-1A green card petitions — stricter than O-1A, adds sustained acclaim + totality argument | `criteria/`, `overview-o1a-eb1a.md` |
 | `niw-national-importance-research` | Researches gov sources, national plans, federal funding for the NIW national importance argument | `prongs/01-substantial-merit.md`, `overview-niw.md` |
@@ -57,9 +59,10 @@ Source documents → document-summary-arrangement → document index
                                         → niw-petition-narrative         → NIW petition package  ──┘
 ```
 
+**Optional (not required):** `case-strength-assessor` on the document index — pre-draft strength report before narratives, if the team wants it.
+
 ## Planned Skills
 
-- **Expert Letter Drafter** — Drafts expert/advisory opinion letters for immigration petitions
 - **Case Chronology** — Builds a timeline from the document index
 - **Contract Review** — Clause-by-clause analysis with risk flags
 

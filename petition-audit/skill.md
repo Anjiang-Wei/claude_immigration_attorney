@@ -40,6 +40,9 @@ Required inputs:
 4. **Source documents** — the actual exhibits referenced in the letter (or access to them)
 5. **Petition type** — O-1A, EB-1A, or NIW
 
+Optional:
+6. **Prior case-strength-assessor output** — if the team ran `/case-strength-assessor` before drafting, compare the draft's emphasis to that assessment (e.g., whether weak criteria were over-argued).
+
 ---
 
 ## Phase 2: Claim Extraction

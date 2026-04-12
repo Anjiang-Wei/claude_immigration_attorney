@@ -36,6 +36,8 @@ You will walk through 5 phases:
 
 This skill consumes the output of the **document-summary-arrangement** skill. If no document index exists, ask the user to run that skill first.
 
+If the user already ran **case-strength-assessor**, use its criterion ratings and gap list to prioritize which criteria to argue first and what evidence still needs gathering — it does not replace attorney strategy.
+
 ---
 
 ## Phase 1: Case Setup
